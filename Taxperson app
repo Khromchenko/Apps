@@ -1,0 +1,27 @@
+
+""" Python """
+
+print "1.Necessary item"
+print "2.Luxury item"
+
+choice = int(input("Enter 1 or 2: "))
+cost = int(input("How many cents does this item cost? "))
+
+if choice == 1:
+   tax = cost / 100
+   strTax = str(tax)
+   total = str(tax + cost)
+   print "Tax = " + strTax  + " cents"
+   print "Your total is " + total + " cents"
+   
+elif choice == 2:
+   tax = cost / 100 * 9
+   strTax = str(tax)
+   total = str(tax + cost)
+   print "Tax = " + strTax + " cents"
+   print "Your total is " + total + " cents"
+   
+   
+   
+
+   
